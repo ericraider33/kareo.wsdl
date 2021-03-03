@@ -1,0 +1,6 @@
+*.user
+*.suo
+.idea
+.out
+obj
+bin

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <WCFMetadata Include="Service References" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <WCFMetadataStorage Include="Service References\KareoServices" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="App.config" />
+      <None Include="Service References\KareoServices\KareoServices.svcmap">
+        <Generator>WCF Proxy Generator</Generator>
+        <LastGenOutput>KareoServices.cs</LastGenOutput>
+      </None>
+      <None Include="Service References\KareoServices\KareoServices.webref" />
+      <None Include="Service References\KareoServices\KareoServices.wsdl" />
+      <None Include="Service References\KareoServices\KareoServices.xsd" />
+      <None Include="Service References\KareoServices\KareoServices0.wsdl" />
+      <None Include="Service References\KareoServices\KareoServices0.xsd" />
+      <None Include="Service References\KareoServices\KareoServices1.xsd" />
+      <None Include="Service References\KareoServices\KareoServices2.xsd" />
+      <None Include="Service References\KareoServices\KareoServices3.xsd" />
+      <None Include="Service References\KareoServices\KareoServices4.xsd" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="System.ServiceModel" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.ServiceModel.Primitives" Version="4.8.1" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kareo.wsdl", "kareo.wsdl\kareo.wsdl.csproj", "{1D85FD67-0676-411A-B271-B3E117E04E9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.connection", "test.connection\test.connection.csproj", "{5CA22FD4-47DC-4E65-8BFE-DD6A25625043}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D85FD67-0676-411A-B271-B3E117E04E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D85FD67-0676-411A-B271-B3E117E04E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D85FD67-0676-411A-B271-B3E117E04E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D85FD67-0676-411A-B271-B3E117E04E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA22FD4-47DC-4E65-8BFE-DD6A25625043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA22FD4-47DC-4E65-8BFE-DD6A25625043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA22FD4-47DC-4E65-8BFE-DD6A25625043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA22FD4-47DC-4E65-8BFE-DD6A25625043}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

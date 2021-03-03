@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://webservice.kareo.com/services/soap/2.1/KareoServices.svc?xsd=xsd3" filename="KareoServices.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://webservice.kareo.com/services/soap/2.1/KareoServices.svc?xsd=xsd0" filename="KareoServices0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://webservice.kareo.com/services/soap/2.1/KareoServices.svc?wsdl" filename="KareoServices.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://webservice.kareo.com/services/soap/2.1/KareoServices.svc?xsd=xsd1" filename="KareoServices1.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://webservice.kareo.com/services/soap/2.1/KareoServices.svc?xsd=xsd5" filename="KareoServices2.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://webservice.kareo.com/services/soap/2.1/KareoServices.svc?xsd=xsd4" filename="KareoServices3.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://webservice.kareo.com/services/soap/2.1/KareoServices.svc?wsdl=wsdl0" filename="KareoServices0.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://webservice.kareo.com/services/soap/2.1/KareoServices.svc?xsd=xsd2" filename="KareoServices4.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>
