@@ -2,6 +2,9 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
+        <PackageVersion>2.1</PackageVersion>
+        <AssemblyVersion>2.1.0001</AssemblyVersion>
+        <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     </PropertyGroup>
 
     <ItemGroup>
@@ -13,7 +16,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Include="App.config" />
       <None Include="Service References\KareoServices\KareoServices.svcmap">
         <Generator>WCF Proxy Generator</Generator>
         <LastGenOutput>KareoServices.cs</LastGenOutput>
@@ -29,6 +31,14 @@
       <None Include="Service References\KareoServices\KareoServices4.xsd" />
     </ItemGroup>
 
+    <ItemGroup>
+        <Compile Include="Service References\KareoServices\KareoServices.cs">
+            <AutoGen>True</AutoGen>
+            <DesignTime>True</DesignTime>
+            <DependentUpon>KareoServices.svcmap</DependentUpon>
+        </Compile>
+    </ItemGroup>
+    
     <ItemGroup>
       <Reference Include="System.ServiceModel" />
     </ItemGroup>
