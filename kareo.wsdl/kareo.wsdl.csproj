@@ -5,6 +5,10 @@
         <PackageVersion>2.1</PackageVersion>
         <AssemblyVersion>2.1.0001</AssemblyVersion>
         <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+        <Authors>Eric Eschenbach</Authors>
+        <Copyright>ChronicCareIQ</Copyright>
+        <PackageProjectUrl>https://github.com/ericraider33/kareo.wsdl</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -29,6 +33,7 @@
       <None Include="Service References\KareoServices\KareoServices2.xsd" />
       <None Include="Service References\KareoServices\KareoServices3.xsd" />
       <None Include="Service References\KareoServices\KareoServices4.xsd" />
+	  <None Include="..\LICENSE.md" Pack="true" PackagePath=""/>
     </ItemGroup>
 
     <ItemGroup>
