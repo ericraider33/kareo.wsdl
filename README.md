@@ -5,6 +5,12 @@ Use this DLL to connect to Kareo EMR via their SOAP API.  Documentation can be f
 
 Currently version 2.1 of the API is supported.
 
+## Install
+Use Nuget:
+```
+Install-Package kareo.wsdl -Version 2.1.0
+```
+
 ## Test Connectivity
 Use the following code to verify connectivity.
 ```
